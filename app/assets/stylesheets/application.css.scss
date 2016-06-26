@@ -1,0 +1,118 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+
+ *= require font-awesome
+ *= require bootstrap
+ *= require jquery-ui
+ *= require_self
+
+ */
+
+.action-links {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.description_box {
+  width: 400px;
+  height: 100px;
+  overflow: scroll;
+}
+
+.td-overflow {
+  overflow-y: auto;
+  max-height: 200px;
+}
+
+.order_buttons {
+  margin-top: 20px;
+}
+
+.greeting {
+  margin-top: 15px;
+}
+
+
+.show-nav {
+  background-color: #D0E7F1;
+  margin-top:10px;
+  margin-left:10px;
+  margin-right:10px;
+  border-radius:10px;
+}
+
+.show-order {
+  border: 1px solid grey;
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  border-radius:10px;
+  padding-right:35px;
+  padding-left:15px;
+  padding-bottom:10px;
+  margin-bottom: 20px;
+}
+
+.order-line-item {
+  margin-left:10px;
+  margin-right:10px;
+}
+.show-order-item {
+  margin-right:0px;
+  margin-left:0px;
+  margin-top:10px;
+
+}
+
+.order-item {
+  margin-right:10px;
+  margin-top:5px;
+  margin-left:10px;
+}
+
+.dashboard-main-div{
+  border: 2px solid grey;
+  border-radius:20px;
+  overflow:auto;
+  min-height: 550px;
+}
+
+
+.dashboard-sections{
+  border: 2px solid grey;
+  border-radius:10px;
+  overflow:auto;
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+
+}
+
+.dashboard-sections-heading{
+  border-radius:10px;
+  border: 1px solid grey;
+  background-color: #11F7F7;
+  text-align:center;
+}
+
+.order-note{
+  padding: 4px;
+  margin-left:10px;
+  border: 1px solid grey;
+  overflow:auto;
+  height:70px;
+  border-radius:10px;
+}
+
+.font-color{
+  color:white;
+}
+
+.padding-right{
+  margin-right: 30px;
+}

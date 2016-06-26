@@ -1,0 +1,10 @@
+<tr>
+  <td ><%=file.title%></td>
+  <td ><%=file.file_size%></td>
+  <td ><%=file.file_extension%></td>
+  <td ><%=file.created_date.to_formatted_s(:short)%></td>
+  <td >
+    <%=link_to '<i class="fa fa-download" aria-hidden="true"></i>'.html_safe, ''%>
+  </td>
+</tr>
+

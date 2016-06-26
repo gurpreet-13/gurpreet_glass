@@ -1,0 +1,16 @@
+<div class = 'col-md-12'>
+  <div class='row'>
+    <table>
+      <tr>
+        <th class='col-md-3'>Title</th>
+        <th class='col-md-2'>Size(bytes)</th>
+        <th class='col-md-2'>Extension</th>
+        <th class='col-md-2'>Created At</th>
+        <th class='col-md-3'>Actions</th>
+      </tr>
+    </table>
+  </div>
+  <div class='row'>
+    <%=render partial: 'file', collection: @files%>
+  </div>
+</div>
